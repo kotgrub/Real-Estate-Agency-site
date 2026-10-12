@@ -1,0 +1,63 @@
+body {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+table.upper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+table.upper td {
+    padding: 5px 15px 50px 15px;
+}
+
+table.product_group {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+table.list {
+    border: 3px solid gray;
+    border-radius: 10%;
+    width: 35%;
+}
+
+table.inlist {
+    padding-bottom: 5px;
+}
+
+table.product {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 10%;
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+}
+
+table.product td {
+    font-weight: bold;
+    vertical-align: top;
+}
+
+/* table {
+    border: 1px solid black;
+} */
+
+td.list-left {
+    width: 100%;
+    text-align: left;
+}
+
+td.list-right {
+    width: 100%;
+    text-align: right;
+}
+
+img {
+    border-radius: 10%;
+}
